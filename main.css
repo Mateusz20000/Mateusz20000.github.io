@@ -1,0 +1,11 @@
+body{
+    background-color: #0b004b;
+}
+
+box{
+    length: 200px;
+    height: 200px;
+    color: black;
+    background-color: #b4b225;
+    float: left;
+}
