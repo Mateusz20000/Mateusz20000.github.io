@@ -1,12 +1,50 @@
 body{
-    background-color: #0b004b;
+    background-color: rgb(16, 1, 151);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.box{
-    margin-right: 100px;
-    length: 200px;
-    height: 200px;
-    color: black;
-    background-color: #b4b225;
+#containet{
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    color: white;
+    margin-top: 25px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+#menu{
+    background-color: #0089d8;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+
+}
+
+.option{
     float: left;
+    min-width: 45px;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#topbar{
+
+}
+
+#sidebar{
+
+}
+
+#content{
+
+}
+
+#footer{
+
 }
