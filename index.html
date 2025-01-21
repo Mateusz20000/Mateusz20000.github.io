@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Portfolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1 style="font-size: 50px ; letter-spacing: 2px">Mateusz20000 profile</h1>
-        <br><br>
-        A problem has been detected and Windows has been shut down to prevent damage to your computer.
-        <br><br>
-        UNMOUNTABLE_BOOT_VOLUME
-        <br><br>
-        Welcome to my profile
-        <br><br>
-        What can I do:
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=aDXjubGK0jU&list=PLOYHgt8dIdozvOVheSRb_qPVU-4ZJA7uB">C++ (object oriented)</a></li>
-            <li><a>Programing structures and algorithms</a></li>
-            <li><a>Linux (bulidnig commands in terminal)</a></li>
-            <li><a>Networking stuff</a></li>
-            <li><a href="https://docs.arduino.cc/hardware/nano/">IoT devices</a></li>
-            <li><a href="5cable.jpg">Electrician stuff (with +230V)</a></li>
-        </ul>
-        <br><br>
-        What I am trying to learn:
-        <br><br>
-        <ul>
-            <li><a>SQL and Databases Management</a></li>
-            <li><a>Python?</a></li>
-            <li><a href="javascript:cssissiue(0)">CSS and JS for web development</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/ATmega328">Hardware and raw MicroProcessors programming (Assemble?)</a></li>
-            <li><a href="https://www.unrealengine.com/en-US">Unreal Engine</a></li>
-        </ul>
-        <br><br>
-        Technical Information:
-        <br><br>
-        *** STOP: 0x000000ED (0x80F128D0, 0x0000009c, 0x00000000, 0x0000000) - Have a nice day c:
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="aboutme.html">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-        <br><br><br>
-        Collecting data for crash dump ... 
-        <br>
-        Initializing disk for crash dump ...
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer with a love for creating elegant and functional web applications. With experience in HTML, CSS, JavaScript, and more, I bring ideas to life on the web.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="Logo.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/300" alt="Project 2">
+                    <h3>Project 2</h3>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/300" alt="Project 3">
+                    <h3>Project 3</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </div>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
